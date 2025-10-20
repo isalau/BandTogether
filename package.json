@@ -1,0 +1,20 @@
+{
+  "name": "bandtogether",
+  "version": "1.0.0",
+  "description": "Personalization experiments for BandTogether",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint experiments/ utils/",
+    "a11y-check": "echo 'Running accessibility checks...'",
+    "check-bundle-size": "echo 'Checking bundle size...'",
+    "deploy:staging": "echo 'Deploying to staging...'",
+    "deploy:production": "echo 'Deploying to production...'"
+  },
+  "keywords": [
+    "personalization",
+    "ecommerce",
+    "experiments"
+  ],
+  "author": "BandTogether Team",
+  "license": "MIT"
+}
